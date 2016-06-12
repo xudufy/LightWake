@@ -16,7 +16,12 @@ body{
   display: flex;
   width:50%;
   height: 100%;
-  background-color: #f00;
+}
+.block.left{
+  background-color: #6cf;
+}
+.block.right{
+  background-color: #9D0711;
 }
 .set-button{
   position: fixed;

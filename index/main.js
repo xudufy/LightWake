@@ -1,10 +1,10 @@
 var left_color=document.getElementById('l').style.backgroundColor;
 var right_color=document.getElementById('r').style.backgroundColor;
-var nowL='#f00';
-var nowR='#f00';
+var nowL='#6cf';
+var nowR='#9d0711';
 var blinkState=0;
 var lastPlay=0;
-var iiint=1000;
+var iiint=300;
 
 function updateColor(){
   if (blinkState==0){
