@@ -4,7 +4,7 @@ var nowL='#6cf';
 var nowR='#9d0711';
 var blinkState=0;
 var lastPlay=0;
-var iiint=300;
+var iiint=100;
 
 function updateColor(){
   if (blinkState==0){
