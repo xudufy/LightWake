@@ -8,8 +8,8 @@ var iiint=100;
 
 function updateColor(){
   if (blinkState==0){
-    document.getElementById('l').style.backgroundColor=left_color;nowL=left_color;
-    document.getElementById('r').style.backgroundColor=right_color;nowR=right_color;
+    document.getElementById('l').style.backgroundColor='#000';nowL='#000';
+    document.getElementById('r').style.backgroundColor='#000';nowR='#000';
   }
   else if (blinkState==1) {
     document.getElementById('l').style.backgroundColor='#000';nowL='#000';
@@ -36,8 +36,8 @@ function play(){
   var d=new Date();
   if (d.getTime()-lastPlay>iiint){
     if(blinkState==0){
-      document.getElementById('l').style.backgroundColor=left_color;nowL=left_color;
-      document.getElementById('r').style.backgroundColor=right_color;nowR=right_color;
+      document.getElementById('l').style.backgroundColor='#000';nowL='#000';
+      document.getElementById('r').style.backgroundColor='#000';nowR='#000';
     }
     else{
       if (nowL==left_color) {
